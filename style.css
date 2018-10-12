@@ -96,7 +96,7 @@ body {
 .contacts__phone::before {
   position: absolute;
   content: "";
-  left: 0px;
+  left: -2px;
   top: 3px;
   width: 15px;
   height: 15px;
