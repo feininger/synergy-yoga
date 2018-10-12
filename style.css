@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'ProximaNova'; 
+  src: url('fonts/proxima-nova-semibold-webfont.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'ProximaNova', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #542749;
+}
