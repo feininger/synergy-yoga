@@ -93,6 +93,10 @@ body {
   padding-left: 18px;
 }
 
+.contacts__phone a{
+  text-decoration: none;
+}
+
 .contacts__phone::before {
   position: absolute;
   content: "";
