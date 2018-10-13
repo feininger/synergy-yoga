@@ -483,6 +483,16 @@ body {
   line-height: 32px;
 }
 
+.seats {
+  display: block;
+  padding-top: 40px;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: 600;
+  color: #66b045;
+  text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
   .cell:nth-child(2),
   .cell:nth-child(10) {
@@ -524,14 +534,9 @@ body {
     align-items: center;
     flex-wrap: wrap;
   }
-}
-
-.seats {
-  display: block;
-  padding-left: 40px;
-  font-family: ProximaNova;
-  font-size: 18px;
-  font-weight: 600;
-  color: #66b045;
-  text-transform: uppercase;
+  
+  .seats {
+    padding-top: 0;
+    padding-left: 40px;
+  }
 }
