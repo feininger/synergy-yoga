@@ -483,7 +483,6 @@ body {
   line-height: 32px;
 }
 
-
 @media (max-width: 768px) {
   .cell:nth-child(2),
   .cell:nth-child(9) {
@@ -501,7 +500,7 @@ body {
   .block-what {
     max-width: 1170px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #ffffff;
   }
   
   .cell {
