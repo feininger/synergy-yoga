@@ -416,3 +416,105 @@ body {
 .social__item--ok {
   background-image: url(img/social/ok.png);
 }
+
+/* ~~~~~~~ next block ~~~~~~~~ */
+
+.block-what {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.block-what__wrapper {
+  background-image: 
+    linear-gradient(#d2cad5, #d2cad5), 
+    linear-gradient(#d2cad5, #d2cad5);
+  background-size: 100% 2px, 100% 2px;
+  background-position: 999px 269px, -999px 555px;
+  background-repeat: no-repeat;
+}
+
+.cell {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-bottom: 28px;
+  width: 100%;
+  min-height: 270px;
+  background-color: white;
+  border: 1px solid #d2cad5;
+  overflow-x: auto;
+}
+
+.cell--bg-1 {
+  background-color: #fbf9fc;
+}
+
+.cell--bg-2 {
+  background-color: #f5f0f7;
+}
+
+.cell__title {
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.cell__number {
+  display: block;
+  margin-bottom: 8px;
+  color: #66b045;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.cell__text {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+
+@media (max-width: 768px) {
+  .cell:nth-child(2),
+  .cell:nth-child(9) {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .cell {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .block-what {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  .cell {
+    width: 390px;
+  }
+  
+  .cell:nth-child(1),
+  .cell:nth-child(9) {
+    width: 780px;
+  }
+  
+  .cell:nth-child(9),
+  .cell:nth-child(10) {
+    min-height: 144px;
+  }
+}
