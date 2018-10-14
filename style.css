@@ -423,6 +423,24 @@ body {
   background-position: 15px center;
 }
 
+#radio-11:checked ~ .form__switcher label[for=radio-11],
+#radio-12:checked ~ .form__switcher label[for=radio-12] {
+  color: #839fb1;
+  background-color: #ffffff;
+}
+
+#radio-11:checked ~ .form__switcher label[for=radio-11] {
+  background-image: url(img/service/hat.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+}
+
+#radio-12:checked ~ .form__switcher label[for=radio-12] {
+  background-image: url(img/service/play.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+}
+
 .form__checkbox-label {
   position: relative;
   display: block;

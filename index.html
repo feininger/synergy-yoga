@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
     <title>Бхригу йога. Вдохновение на перемены.</title>
 </head>
 <body>
@@ -89,7 +90,7 @@
         <p class="cell__text">Причины потери вдохновения</p>
       </div>
       <div class="cell">
-        <a class="button" href="#">Принять участие</a>
+        <a class="button show-form" href="#form">Принять участие</a>
         <span class="seats">Количество мест<br> ограничено: 200</span>
       </div>
       <div class="cell"></div>
@@ -143,7 +144,7 @@
         </div>
         </div>
         <div class="block-intensive__more">
-          <a class="button button--transparent" href="#">Узнать больше</a>
+          <a class="button button--transparent show-form" href="#form">Узнать больше</a>
           <p>Вы можете приобрести билет на&nbsp;1,&nbsp;2&nbsp;или 3&nbsp;дня<br> Запись и&nbsp;дополнительная информация<br> по&nbsp;телефону +<b>7&nbsp;999&nbsp;768&nbsp;36&nbsp;38</b></p>
         </div>
       </div>
@@ -156,21 +157,24 @@
     </div>
   </footer>
   </div>
-  <form class="form hidden" action="#" method="post">
+  <form class="form hidden" action="#" method="post" id="form">
     <p class="form__title"><b>Записаться</b> на практическую лекцию</p>
     <input class="form__input" type="text" name="name" placeholder="Введите ваше имя" required>
     <input class="form__input" type="tel" name="tel"  placeholder="Введите ваш телефон" required>
     <input class="form__input" type="email" name="email"  placeholder="Введите ваш e-mail" required>
-      <input class="form__radio" type="radio" id="radio-1" name="switcher" checked>
-      <input class="form__radio" type="radio" id="radio-2" name="switcher">
+      <input class="form__radio" type="radio" id="radio-11" name="switcher" checked>
+      <input class="form__radio" type="radio" id="radio-12" name="switcher">
     <div class="form__switcher">
-      <label class="form__label" for="radio-1">Живое<br> участие</label>
-      <label class="form__label" for="radio-2">Участие<br> онлайн</label>
+      <label class="form__label" for="radio-11">Живое<br> участие</label>
+      <label class="form__label" for="radio-12">Участие<br> онлайн</label>
     </div>
-    <input class="form__checkbox" type="checkbox" id="checkbox">
-    <label class="form__checkbox-label" for="checkbox">Согласен получать новости о&nbsp;звездных лекциях и&nbsp;курсах</label>
+    <input class="form__checkbox" type="checkbox" id="checkbox-10">
+    <label class="form__checkbox-label" for="checkbox-10">Согласен получать новости о&nbsp;звездных лекциях и&nbsp;курсах</label>
     <button class="button">Отправить заявку</button>
     <span class="form__seats">Количество мест ограничено: 200</span>
   </form>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.7"></script>
+  <script src="script.js"></script>
 </body>
 </html>
