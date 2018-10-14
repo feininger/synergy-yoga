@@ -592,7 +592,8 @@ a.button {
   background-repeat: no-repeat;
 }
 
-.block-if__right-wrapper{
+.block-if__right-wrapper {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding-top: 40px;
@@ -653,3 +654,4 @@ a.button {
   padding: 0;
   margin: 0;
 }
+
