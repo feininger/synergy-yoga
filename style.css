@@ -26,6 +26,10 @@ body {
   color: #542749;
 }
 
+.hidden {
+  display: none;
+}
+
 .page-wrapper {
   margin: 0 auto;
   min-width: 1200px;
