@@ -159,6 +159,7 @@ body {
 }
 
 .date {
+  width: 230px;
   color: #66b045;
   text-transform: uppercase;
 }
@@ -655,3 +656,82 @@ a.button {
   margin: 0;
 }
 
+/* ~~~~~~~ next block ~~~~~~~~ */
+
+.block-intensive {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1200px;
+  min-height: 517px;
+}
+
+.block-intensive__wrapper {
+  background-image: linear-gradient(to right, #dfdbe6 50%, #f3ebf5 50%);
+}
+
+.block-intensive__left {
+  position: relative;
+  width: 25%;
+  background-color: #dfdbe6;
+}
+
+.block-intensive__left::after {
+  content: "";
+  position: absolute;
+  width: 225px;
+  height: 438px;
+  margin-top: 80px;
+  margin-left: 20px;
+  background-image: url(img/people.png);
+}
+
+.block-intensive__right {
+  width: 75%;
+  padding-top: 50px;
+  padding-left: 38px;
+  background-color: #f3ebf5;
+}
+
+.block-intensive__text-block {
+  width: 700px;
+}
+
+.block-intensive__text-block h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.block-intensive__text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.block-intensive__text--small {
+  font-size: 18px;
+}
+
+.block-intensive__dates {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 882px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding-top: 25px;
+  border-top: 1px solid #66b045;
+}
+
+.block-intensive__more {
+  display: flex;
+}
+
+.block-intensive__more p{
+  display: flex;
+}
