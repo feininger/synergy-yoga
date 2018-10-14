@@ -570,3 +570,86 @@ a.button {
   align-items: center;
   text-decoration: none;
 }
+
+/* ~~~~~~~ next block ~~~~~~~~ */
+
+.block-if {
+  display: flex;
+  color: #ffffff;
+}
+
+.block-if__left {
+  width: 50%;
+  min-height: 750px;
+  background-image: url(img/women.jpg);
+  background-repeat: no-repeat;
+}
+
+.block-if__right {
+  width: 50%;
+  min-height: 750px;
+  background-image: url(img/women-2.jpg);
+  background-repeat: no-repeat;
+}
+
+.block-if__right-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 44px;
+  height: 100%;
+  background-color: rgba(154, 166, 175, .9);
+}
+
+.block-if__title {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.block-if__item {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.block-if__item span {
+  flex-shrink: 0;
+  width: 125px;
+  height: 125px;
+  margin-right: 50px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon--one {
+  background-image: url(img/service/icon-one.svg);
+  background-size: auto 72px;
+}
+
+.icon--two {
+  background-image: url(img/service/icon-two.svg);
+  background-size:  auto 82px;
+}
+
+.icon--three {
+  background-image: url(img/service/icon-three.svg);
+  background-size: auto 69px;
+}
+
+.block-if__item p {
+  padding: 0;
+  margin: 0;
+}
