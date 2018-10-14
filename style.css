@@ -567,7 +567,7 @@ body {
     linear-gradient(#d2cad5, #d2cad5), 
     linear-gradient(#d2cad5, #d2cad5);
   background-size: 100% 2px, 100% 2px;
-  background-position: 999px 269px, -999px 620px;
+  background-position: 999px 269px, -999px 619px;
   background-repeat: no-repeat;
 }
 
@@ -642,7 +642,7 @@ body {
 
 @media (min-width: 1024px) {
   .block-what {
-    max-width: 1024px;
+    max-width: 1020px;
     margin: 0 auto;
     background-color: #ffffff;
   }
