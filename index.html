@@ -16,7 +16,7 @@
      <div class="contacts">
        <div class="contacts__phone"><a class="green" href="tel:88001001475">8-800-100-17-46</a></div>
        <div class="contacts__email"><a class="green" href="Lectorium@synergy.ru">Lectorium@synergy.ru</a></div>
-       <div class="contacts__address"><span class="violet">Семеновская</span><br><a class="green" href="#">Москва, Измайловский Вал, дом&nbsp;2, корпус&nbsp;1</a></div>
+       <div class="contacts__address"><span class="violet">Семеновская</span><br><a class="green map" href="#map">Москва, Измайловский Вал, дом&nbsp;2, корпус&nbsp;1</a></div>
      </div>
     </div> 
     <div class="flex">
@@ -173,7 +173,10 @@
     <button class="button">Отправить заявку</button>
     <span class="form__seats">Количество мест ограничено: 200</span>
   </form>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <div class="hidden" id="map">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A79c27ab034b293454c0f39ce8c0771e89165ca2b35dbcca5f40bbbbe8b48da66&amp;width=1080&amp;height=667&amp;lang=ru_RU&amp;scroll=true"></script>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.7"></script>
   <script src="script.js"></script>
 </body>
