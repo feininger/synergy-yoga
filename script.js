@@ -16,11 +16,11 @@
   $(document).ready(function() {
 	$(".map").fancybox({
         padding     : 10,
-		fitToView	: false,
+		fitToView	: true,
 		width		: '70%',
 		height		: '70%',
 		autoSize	: true,
-		closeClick	: false,
+		closeClick	: true,
 		openEffect	: 'none',
 		closeEffect	: 'none',
         closeBtn    : 'true'
