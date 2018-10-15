@@ -32,8 +32,9 @@ body {
 
 .page-wrapper {
   margin: 0 auto;
-  min-width: 1200px;
+  width: 100%;
   max-width: 1920px;
+  min-width: 425px;
   box-shadow: 0 -10px 30px 10px gray;
 }
 
@@ -47,7 +48,8 @@ body {
 
 .block-top__container {
   box-sizing: border-box;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   min-height: 980px;
   margin: 0 auto;
   padding-top: 34px;
@@ -61,19 +63,19 @@ body {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .page-wrapper {
     margin: 0 auto;
-    width: 768px;
-    min-width: 768px;
+    width: 100%;
+    max-width: 1024px;
   }
   
   .block-top__container {
-    width: 768px;
+    width: 100%;
   }
   
   .flex {
-    width: 750px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -89,12 +91,12 @@ body {
 
 @media (max-width: 425px) {
   .page-wrapper {
-    width: 425px;
-    min-width: 425px;
+    width: 100%;
+    max-width: 425px;
   }
   
   .block-top__container {
-    width: 425px;
+    width: 100%;
   }
   
   .flex {
@@ -805,7 +807,8 @@ a.button {
   display: flex;
   box-sizing: border-box;
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   min-height: 517px;
 }
 
@@ -838,11 +841,7 @@ a.button {
   background-color: #f3ebf5;
 }
 
-@media (max-width: 768px) {
-  .block-intensive {
-    width: 100%;
-  }
-  
+@media (max-width: 1024px) {
   .block-intensive__left {
     display: none;
   }
@@ -898,7 +897,7 @@ a.button {
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .block-intensive__dates {
     flex-direction: column;
     width: 250px;
@@ -907,9 +906,11 @@ a.button {
   .date {
     margin-bottom: 30px;
   }
-}
-
-@media (max-width: 425px) {
+  
+  .block-intensive__more {
+    flex-direction: column;
+  }
+  
   .block-intensive__more p {
     margin-top: 20px;
     margin-left: 0px;
@@ -928,7 +929,8 @@ a.button {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 80px;
   margin: 0 auto;
   padding-left: 10px;
@@ -940,13 +942,13 @@ a.button {
 
 @media (max-width: 768px) {
   .footer__container {
-    width: 768px;
+    width: 100%;
   }
 }
 
 @media (max-width: 425px) {
   .footer__container {
-    width: 425px;
+    width: 100%;
   }
 }
 
