@@ -89,6 +89,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .block-top {
+    background-position: 0px center;
+  }
+}
+
 @media (max-width: 425px) {
   .page-wrapper {
     width: 100%;
@@ -108,8 +114,6 @@ body {
   }
   
   .block-top {
-    background-image: url(img/top.jpg);
-    background-repeat: no-repeat;
     background-position: 0 center;
   }
 }
